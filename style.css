@@ -1,0 +1,105 @@
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* -------------------------------- */
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font-size: 2.6rem;
+}
+
+.img-slider {
+    height: 80rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.chara-container {
+    background: rgba(255, 255, 255, 0.678);
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chara-container h2 {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+
+.chara-container p {
+    font-size: 1.9rem;
+    width: 90%;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.right-btn {
+    margin-left: 0.7rem;
+    padding: 2rem 4rem;
+    background: #f99e1a;
+    border: none;
+    border-radius: .5rem;
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.left-btn {
+    margin-left: 0.7rem;
+    padding: 2rem 4rem;
+    background: #43484c;
+    border: none;
+    border-radius: .5rem;
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
